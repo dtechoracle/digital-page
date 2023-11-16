@@ -1,7 +1,7 @@
 import Nav from './Components/NavBar';
 import head from './assets/header-img.png';
 import team from './assets/team.png';
-import logos from './assets/Logos.png';
+import sponsors from './assets/sponsors.png';
 import customer from './assets/customer.png';
 import bussiness from './assets/bussiness.png';
 import Testimonials from './Components/Testimonials';
@@ -33,7 +33,7 @@ function App() {
       <div>
         <p className='font-[14] md:font-[16] text-center text-[#667085]'>Trusted by 4,000+ companies</p>
         <div className='p-4 md:p-16'>
-          <img src={logos} className='p-4 bg-[#F6F6F6] w-full rounded-xl' />
+          <img src={sponsors} className='p-4 bg-[#F6F6F6] w-full rounded-xl' />
           </div>
       </div>
       <div className='flex flex-col-reverse md:pl-36 md:pr-36 sm:flex-row'>
